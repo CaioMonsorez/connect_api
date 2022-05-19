@@ -103,7 +103,9 @@ Este comando retornará uma resposta NO FORMATO JSON (os POSTs)
 
 Vamos até a sessão de filmes na documentaçao [API do Studio Ghibli]([https://ghibliapi.herokuapp.com/).
 
-A direita, temos o GET/Films com a URL do endpoint da API. Esse link exibirá um array em JSON
+A direita, temos o GET/Films com a URL do endpoint da API. Esse link exibirá um array em JSON com todos os filmes disponiveis.
+
+Exemplo de modelo JSON
 
 [Array do JSON]([https://ghibliapi.herokuapp.com/films)
 
@@ -147,7 +149,7 @@ A direita, temos o GET/Films com a URL do endpoint da API. Esse link exibirá um
 
   # Buscando dados com o FETCH
 
-Para abrir uma conexão com a API, usaremos a FETCH API. O método `fetch()` é um recurso interno mais recente do JavaScript que facilita o trabalho com requests e respostas.
+Para abrir uma conexão com a API, usaremos a FETCH API. O método `fetch()` é um recurso interno mais recente do JavaScript que facilita o trabalho com solicitações (GET) e respostas (POST).
 
 Você pode simplesmente chamar a função `fetch()` passando como argumento o endpoint, ou seja a URL da nossa API. 
 
@@ -199,8 +201,8 @@ fetch('https://ghibliapi.herokuapp.com/films')
 
   O método `forEach()`
 
-  # Conectando os dados com o Front End
+ 
 
 
-  
+
 
