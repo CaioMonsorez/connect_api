@@ -35,7 +35,7 @@ fetch('https://ghibliapi.herokuapp.com/films')
       card.appendChild(p);
     });
   }).catch(err => {
-    const errorMessage = document.createElement('marquee');
-    errorMessage.textContent = `Essa não! Não está funcionando!`
+    const errorMessage = document.createElement('Funcionou!!');
+    errorMessage.textContent = `Eita, ferrou!`
     app.appendChild(errorMessage);
   });

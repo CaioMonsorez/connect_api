@@ -199,7 +199,7 @@ fetch('https://ghibliapi.herokuapp.com/films')
 
 ~~~
 
-  O método `forEach()`
+  O método `forEach()` permite executar uma função para cada item de um array.
 
  
 
