@@ -6,8 +6,15 @@ logo.src = 'img/logo.png';
 const container = document.createElement('div');
 container.setAttribute('class', 'container');
 
+
+
+
 app.appendChild(logo);
 app.appendChild(container);
+
+
+
+
 
 fetch('https://ghibliapi.herokuapp.com/films')
   .then(response => response.json())
